@@ -4621,7 +4621,7 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits', 2);
     creditsSection:AddSeparator({text = 'Owners/Developers'});
-    creditsSection:AddText({text = "nottyasto"})
+    creditsSection:AddText({text = "wizzy"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
