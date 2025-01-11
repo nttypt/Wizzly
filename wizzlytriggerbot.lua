@@ -10,7 +10,7 @@ local Mouse = LocalPlayer:GetMouse()
 --// Default Configurations (can be overwritten by other scripts)
 local Config = {
     TriggerbotEnabled = false, -- Start disabled (default)
-    TriggerKey = Enum.UserInputType.MouseButton2, -- Trigger key to shoot (Right Mouse Button)
+    TriggerKey = Enum.UserInputType.MouseButton1, -- Trigger key to shoot (Right Mouse Button)
     ToggleKey = Enum.KeyCode.T, -- Key to toggle triggerbot on/off
     Delay = 0.1, -- Delay before shooting (to simulate reaction time)
     ShootPartName = "Head", -- The part to target (e.g., "Head")
